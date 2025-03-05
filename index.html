@@ -6,223 +6,19 @@
   <meta http-equiv="X-UA-Compatible" content="ie=edge">
   <title>y6nnkoy</title>
   <link rel="icon" type="png" href="eyes.png">
-  <style>
-    * {
-      margin: 0;
-      padding: 0;
-      box-sizing: border-box;
-    }
-
-    body {
-      background-color: black;
-      font-family: Arial, sans-serif;
-    }
-    
-    p {
-      padding: 20px;
-      max-width: 450px;
-      margin: 0 auto;
-      text-align: center;
-    }
-
-    /* Navbar */
-    .navbar {
-      display: flex;
-      justify-content: center;
-      gap: 15px;
-      padding: 15px 0;
-      background: rgba(0, 0, 0, 0.8);
-      width: 100%;
-      position: fixed;
-      top: 0;
-      left: 0;
-      z-index: 1000;
-    }
-
-    .navbar a {
-      color: white;
-      text-decoration: none;
-      padding: 10px 15px;
-      font-size: 1rem;
-      border-radius: 5px;
-      transition: 0.3s;
-    }
-
-    .navbar a:hover {
-      background-color: #C64142;
-    }
-
-    /* Container utama */
-    .container {
-      display: flex;
-      flex-direction: column;
-      align-items: center;
-      justify-content: center;
-      min-height: 100vh;
-      padding-top: 80px;
-    }
-
-    .card {
-      text-align: center;
-      color: white;
-    }
-
-    .card img {
-      border-radius: 50%;
-      width: 120px;
-    }
-
-    .link {
-      display: flex;
-      gap: 10px;
-      margin-top: 15px;
-      justify-content: center;
-    }
-
-    .link a {
-      color: white;
-      background: #C64142;
-      text-decoration: none;
-      padding: 8px 12px;
-      border-radius: 8px;
-      transition: 0.3s;
-    }
-
-    .link a:hover {
-      background: white;
-      color: black;
-    }
-
-    /* Garis pemisah */
-    .line {
-      width: 90%;
-      height: 2px;
-      background-color: white;
-      border-radius: 5px;
-      margin: 30px auto;
-    }
-    
-    .txt {
-      color: white;
-      text-align: center;
-      font-size: 1rem;
-      margin-top: -10px;
-      padding: 10px 10px;
-      border-radius: 10px;
-    }
-
-    /* Video Section */
-    .video-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 20px;
-    }
-
-    .video-container video {
-      width: 350px;
-      border-radius: 10px;
-    }
-    
-    .img {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      margin-top: 20px;
-    }
-    
-    .img img {
-      width: 350px;
-      border-radius: 10px;
-    }
-
-    /* Content Container (Perbaikan: Sekarang menggunakan flexbox) */
-    .content-container {
-      display: flex;
-      flex-wrap: wrap;
-      justify-content: center;
-      gap: 40px;
-      padding: 20px;
-      margin: auto;
-      max-width: 900px;
-    }
-
-    .content-box {
-      background-color: #1a1a1a;
-      padding: 15px;
-      border-radius: 10px;
-      text-align: center;
-      box-shadow: 0 4px 8px rgba(255, 255, 255, 0.1);
-      transition: 0.3s;
-      width: calc(50% - 20px); /* 2 kolom di layar besar */
-    }
-
-    .content-box img {
-      width: 100%;
-      border-radius: 8px;
-    }
-
-    .content-box h3 {
-      color: white;
-      margin: 10px 0;
-    }
-
-    .content-box p {
-      color: #ccc;
-      font-size: 14px;
-    }
-
-    .content-box a {
-      display: inline-block;
-      margin-top: 10px;
-      padding: 8px 12px;
-      background-color: #C64142;
-      color: white;
-      text-decoration: none;
-      border-radius: 5px;
-    }
-
-    .content-box a:hover {
-      background-color: #a83232;
-    }
-
-    /* Responsif */
-    @media (max-width: 768px) {
-      .content-box {
-        width: 100%; /* Menjadi 1 kolom di layar kecil */
-      }
-      
-      .video-container video {
-        width: 80%;
-      }
-    }
-
-    @media (max-width: 480px) {
-      .video-container video {
-        width: 100%;
-      }
-
-      .navbar a {
-        font-size: 0.8rem;
-      }
-    }
-
-  </style>
+  <link rel="stylesheet" href="style.css">
 </head>
 <body>
 
-  <!-- Navbar -->
   <div class="navbar">
-    <a href="#">Home</a>
-    <a href="#">About</a>
-    <a href="#">Contact</a>
-    <a href="#">Services</a>
+    <a href="#About">About</a>
+    <a href="#Video Editing">Video Editing</a>
+    <a href="#Vector Art">Vector Art</a>
+    <a href="#Discord Bot">Discord Bot</a>
   </div>
 
-  <!-- Container Utama -->
-  <div class="container">
+ 
+  <div id="About" class="container">
     <div class="card">
       <img src="pp.jpg" alt="y6nnkoy">
       <h2>y6nnkoy</h2>
@@ -230,14 +26,14 @@
       <div class="link">
         <a href="https://www.instagram.com/y6nnkoy?igsh=MThud2JuOGtjcjc2Mg==">Instagram</a>
         <a href="https://www.tiktok.com/@y6nnkoy">Tiktok</a>
-        <a href="https://discord.gg/GZHtwaJZ">Discord</a>
+        <a href="https://discord.gg/na9sTMzx">Discord</a>
         <a href="https://youtube.com/@masterpieceart2412?si=x3xlyknMT8N0Ns59">Youtube</a>
       </div>
     </div>
 
     <div class="line"></div>
     
-    <h2 class="txt">Video Editing</h2>
+    <h2 id="Video Editing" class="txt">Video Editing</h2>
 
     <div class="video-container">
       <video src="help me find my name.mp4" controls poster="help me find my name.png"></video>
@@ -253,20 +49,20 @@
   
   <div class="line"></div>
   
-  <h2 class="txt">vector art</h2>
+  <h2 id="Vector Art" class="txt">Vector Art</h2>
   
   <div class="img">
     <img src="yuri1.png" alt="">
     <img src="yuri2.png" alt="">
     <img src="ghoul.png" alt="">
     <img src="Ellen.png" alt="">
-    <img src="Persona 5.png" alt="">
-    <img src="Yuri heart 111.png" alt="">
+    <img src="persona 5.png" alt="">
+    <img src="yuri heart 111.png" alt="">
   </div>
   
   <div class="line"></div>
   
-  <h2 class="txt">Discord Bot</h2>
+  <h2 id="Discord Bot" class="txt">Discord Bot</h2>
   
   <div class="content-container">
     <div class="content-box">
